@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hot Air Balloon</title>
+    <link rel = "icon" href = "balloon.jpg" type = "image/x-icon">
+
+    <script src="p5.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="./p5.play.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+   <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+
+   <!-- TODO: Add SDKs for Firebase products that you want to use
+    https://firebase.google.com/docs/web/setup#available-libraries -->
+
+   <script>
+   // Your web app's Firebase configuration
+    var firebaseConfig = {
+    apiKey: "AIzaSyBtxCuOkKfkuLNNrYNPQ6RCgVlx5v7v2MI",
+    authDomain: "ride-in-the-air.firebaseapp.com",
+    projectId: "ride-in-the-air",
+    storageBucket: "ride-in-the-air.appspot.com",
+    messagingSenderId: "206148002513",
+    appId: "1:206148002513:web:118396da8b68fa0eed9bf0"
+   };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    </script>
+
+  </head>
+  <body>
+   <div class="heading"> 
+      Take a ride in the air collecting the treasure and dodge the 🐦🐦
+    </div>
+    <script src="sketch.js"></script>
+  </body>
+</html>
+
